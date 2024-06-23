@@ -13,4 +13,4 @@ RUN npm run build
 # ====================================
 FROM build as release
 
-CMD ["npm", "run", "generate", "&&", "npm", "run", "start"]
+CMD ["npm", "run", "start"]
